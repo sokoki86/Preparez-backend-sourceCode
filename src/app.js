@@ -17,6 +17,7 @@ const morganSetting = (NODE_ENV === 'production')
 app.use(morgan(morganSetting))
 app.use(helmet())
 app.use(cors())
+// app.use(validateBearerToken);
 
 app.use('/recipes', recipesRouter)
 app.use('/users', userRouter)
