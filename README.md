@@ -1,26 +1,28 @@
-# Express Boilerplate!
+Preprez
 
-This is a boilerplate project used for starting new projects!
+Preparez is a recipe sharing app that allows users to add, delete, and edit recipes shared with other users on the platform.
 
-## Set up
+A live link to this app can be found here
+https://preparez-frontend-source-code.vercel.app/
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+The app was deployed with Heroku and the build can be found here
+https://git.heroku.com/serene-mesa-65774.git
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+The app uses Auth O for login purposes
 
-## Scripts
+When Users Log in they will find a treasure trove of Recipes 
 
-Start the application `npm start`
 
-Start nodemon for the application `npm run dev`
 
-Run the tests `npm test`
+Users are able to search through them using the search bar at the top
 
-## Deploying
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
+
+Users are able to add recipes 
+
+
+
+Users can edit and delete recipes as well 
+
+
+Preparez was created using React for the client side,  express for the server, PostgreSQL for the database, and Node.js.
